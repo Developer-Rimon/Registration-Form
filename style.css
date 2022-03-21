@@ -1,0 +1,45 @@
+body {
+   background-image: url(images/b.jpg);
+   background-size: cover;
+   font-family: "Poppins", sans-serif;
+}
+.amader-form {
+   width: 600px;
+   background: rgba(59, 89, 153, 1);
+   margin: 100px auto;
+   padding: 20px;
+   border-radius: 4px;
+}
+.amader-form input {
+   display: block;
+   width: 100%;
+   font-size: 20px;
+   border: 1px solid red;
+   padding: 5px;
+   border-radius: 3px;
+}
+.amader-form label {
+   color: white;
+   padding: 5px 0;
+   display: block;
+   cursor: pointer;
+   font-size: 18px;
+}
+.amader-form input[type="submit"] {
+   width: 200px;
+   margin-top: 10px;
+   cursor: pointer;
+}
+.amader-form p {
+   font-size: 17px;
+}
+.amader-form p a {
+   color: red;
+   text-decoration: none;
+}
+.amader-form p a:hover {
+   color: rgb(245, 139, 0);
+}
+.reg:hover {
+   background-color: rgb(245, 139, 0);
+}
